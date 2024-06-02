@@ -1,0 +1,87 @@
+/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%; }
+
+/* Half Page Carousel itself*/
+/* .carousel {
+  height: 50%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; } */
+
+/* Adjustment for mobile devices*/
+@media (max-width: 776px) {
+  .carousel {
+    height: 100%; } }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #929FBA; }
+
+
+.logo-text{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 30px;
+}
+
+.left-menu li,#right-menu li{
+  margin-right: 20px;
+}
+.left-menu li a{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 00.1em;
+}
+
+.carousel-caption{
+  left: 60%;
+  top: 30%;
+  font-size: 30px;
+  text-align: left;
+  width: 300px;
+  height: 150px;
+}
+.new-item{
+  position: absolute;
+  z-index: 1;
+  background-color: rgb(236, 41, 243);
+  width: 50px;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 30px;
+  padding: 3px 5px;
+}
+/* #left-explore{
+  border-top: 1px solid #000;
+}
+#right-feature .sright{
+  border-top: 1px solid rgb(255, 0, 0);
+}
+#right-feature .sleft{
+  border-top: 1px solid #000;
+} */
+hr{
+  background-color: #000;
+}
+.small-text{
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.shop-item {
+  position: absolute;
+  z-index: 1;
+  background-color: #fff;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  padding: 3px 0;
+  top: 250px;
+  width: 95%;
+  color: #000;
+}
